@@ -79,7 +79,7 @@ nav a {
   top:auto;
 }
 .hidden:focus {
-  left: 1;
+  left: 1px;
 }
 /* grids */
 .grid-header {

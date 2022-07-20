@@ -7,14 +7,18 @@
   </head>
 
   <body>
+    <a href="#main-content" class="hidden">Skip to main content</a>
     <header class="grid-header">
       <img src="images/archeryAcademy-logo-white.png" class="grid-logo" alt="The Archery Acadamy logo.">
       <nav class="grid-nav">
-        <p><a href="index.html">Main</a> / <a href="about.html">About</a> / <a href="classes.html">Classes & Lessons</a> / <a href="bios.html">Meet Us</a></p>
+        <p><a href="index.html">Main</a></p>
+        <p><a href="about.html">About</a></p>
+        <p><a href="classes.html">Classes & Lessons</a></p>
+        <p><a href="bios.html">Meet Us</a></p>
       </nav>
     </header>
 
-    <section class="grid-about">
+    <div class="grid-about">
 
       <aside class="grid-hours">
           <h4>hours and location</h4>
@@ -37,15 +41,17 @@
       </section>
 
       <section class="grid-side-img">
-        <img class="center-image" src="images/instructor-bio-image4.png" alt="Image of Giap Nguyen.">
+        <h3 class="hidden">Photo of the Founder</h3>
+        <img class="center-image" src="images/instructor-bio-image4.png" alt="A black and white photo of Giap Nguyen.">
         <p class="caption">Giap Nguyen, Straight to the Point Archery Founder</p>
       </section>
 
       <section class="grid-side-vid">
         <h3>Watch our former students in action:</h3>
-        <iframe src="https://www.youtube.com/embed/Kkh0kGtAaCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <span class="sr-only">This video is about two young women archers in the Seattle area.</span>
+        <iframe src="https://www.youtube.com/embed/Kkh0kGtAaCE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
-    </section>
+    </div>
 
     <footer class="footer-container">
       <img src="images/footerImage.jpeg" class="index-img" alt="Arrows with a blue photo filter.">
